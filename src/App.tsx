@@ -1,7 +1,23 @@
+import './styles/theme.css';
+import './styles/global.css';
+import { Container } from './components/Container';
+import { Heading } from './components/Heading';
+
 export function App () {
     return (
         <>
-            <h1>ola mundo</h1>
+            <Container>
+                <Heading>LOGO</Heading>
+            </Container>
+            <Container>
+                <Heading>MENU</Heading>
+            </Container>
+            <Container>
+                <Heading>FORM</Heading>
+            </Container>
+            <Container>
+                <Heading>FOOTER</Heading>
+            </Container>
         </>
     );
 }
